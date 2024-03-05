@@ -9,7 +9,7 @@ INFO:root:mateo is thinking...
 INFO:root:Done
 INFO:root:[blue]mateo: 
 INFO:root:{"name":"pdf_search", "arguments":{
-"path": "react-cheat-sheet.pdf"
+  "path": "react-cheat-sheet.pdf"
 }}
 
 INFO:root:Calling function: pdf_search ...
@@ -117,28 +117,10 @@ INFO:root:[blue]mateo:
 INFO:root:The content of the PDF file "react-cheat-sheet.pdf" is a cheat sheet for React.js, a JavaScript library for building user interfaces. It includes:
 
 1. A brief introduction to React.js and links to its official documentation and GitHub repository.
-2. A "Hello World" example in React.js.
-3. Examples of ES6 Class and Stateless Components in React.js.
-4. An example of conditional rendering in React.js.
-5. Links to tools and resources for React.js development, such as Create React App, React Dev Tools for Chrome, React Code Snippets for Visual Studio Code, and Babel for Sublime Text 3.
-6. An overview of lifecycle methods in React.js, with an example of a class component that uses these methods.
-7. Links to CodePen demos for various concepts and techniques in React.js.
-INFO:root:Done
-INFO:root:[green]User: 
-INFO:root:mateo is thinking...
-INFO:root:Done
-INFO:root:[blue]mateo: 
-INFO:root:The PDF file mentions 8 lifecycle methods. These are:
-
-1. constructor
-2. render
-3. componentWillMount
-4. componentDidMount
-5. componentWillReceiveProps
-6. shouldComponentUpdate
-7. componentWillUpdate
-8. componentDidUpdate
-9. componentWillUnmount
+2. Code snippets demonstrating how to create a "Hello World" application, ES6 class, and stateless components in React.js.
+3. An explanation of conditional rendering in React.js with a code snippet.
+4. Links to tools and resources for React.js development, such as Create React App, React Dev Tools for Chrome, React Code Snippets for Visual Studio Code, and Babel for Sublime Text 3.
+5. An overview of lifecycle methods in React.js with a code snippet demonstrating how to use them in a class component.
 INFO:root:Done
 INFO:root:[green]User: 
 INFO:root:
