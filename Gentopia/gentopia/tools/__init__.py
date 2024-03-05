@@ -1,5 +1,6 @@
 from .basetool import BaseTool
 from .google_search import GoogleSearch
+from .pdf_search import PdfSearch
 from .google_scholar import *
 from .calculator import Calculator
 from .wikipedia import Wikipedia
@@ -23,6 +24,7 @@ def load_tools(name: str) -> BaseTool:
         "write_file": WriteFile,
         "read_file": ReadFile,
         "google_search": GoogleSearch,
+        "pdf_search": PdfSearch,
         "text_to_speech": TTS,
         "image_caption": ImageCaption,
         "text_to_image": TextToImage,

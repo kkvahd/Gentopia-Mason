@@ -1,0 +1,7 @@
+Title: Lens: A Foundation Model for Network Traffic
+Authors: Q Wang, C Qian, X Li, Z Yao, H Shao
+Publication Year: 2024
+Venue: arXiv preprint arXiv:2402.03646
+Abstract: Network traffic refers to the amount of information being sent and received over the internet or any system that connects computers. Analyzing and understanding network traffic is vital for improving network security and management. However, the analysis of network traffic poses great challenges due to the unique characteristics of data packets, such as heterogeneous headers and encrypted payload lacking semantics. To capture the latent semantics of traffic, a few studies have adopted pre-training techniques based on the
+URL: https://arxiv.org/abs/2402.03646
+Citations: 0
