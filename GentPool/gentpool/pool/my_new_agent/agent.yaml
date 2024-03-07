@@ -1,0 +1,17 @@
+name: my_new_agent
+type: openai
+version: 0.0.1
+description: You are a soccer (football) fan. You can search for the latest Premier League statistics
+target_tasks: 
+  - find latest soccer content
+prompt_template: !prompt VanillaPrompt
+llm: 
+  model_name: gpt-4-0613
+  # model_name: gpt-4
+  params:
+    temperature: 0.0
+    top_p: 0.9
+    repetition_penalty: 0.0
+    max_tokens: 4096
+plugins:
+  - name: search_soccer_scores

@@ -1,6 +1,7 @@
 from .basetool import BaseTool
 from .google_search import GoogleSearch
 from .pdf_search import PdfSearch
+from .search_soccer_scores import SoccerScoreSearch
 from .google_scholar import *
 from .calculator import Calculator
 from .wikipedia import Wikipedia
@@ -25,6 +26,7 @@ def load_tools(name: str) -> BaseTool:
         "read_file": ReadFile,
         "google_search": GoogleSearch,
         "pdf_search": PdfSearch,
+        "search_soccer_scores": SoccerScoreSearch,
         "text_to_speech": TTS,
         "image_caption": ImageCaption,
         "text_to_image": TextToImage,
