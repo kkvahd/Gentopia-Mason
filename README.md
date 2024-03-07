@@ -65,3 +65,14 @@ Sometimes an agent can upset you. To wipe it out completely,
 ./delete_agent <your_agent_name> 
 ```
 
+## PDF search - Karthik
+Use "pdf_search" with the agent "mateo" as mentioned in the pdf submission
+
+## Custom agent - Karthik Vanka
+This is my own tool-augmented LLM agent called my_new_agent (to make it easier to understand). 
+It just has one function -> fetching the latest soccer scores from the premier league.
+The usage is mentioned below
+```
+User: search_soccer_scores 
+```
+and then you can ask some questions about the upcoming fixtures!

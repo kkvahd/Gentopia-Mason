@@ -9,7 +9,7 @@ class SoccerScoreSearchArgs(BaseModel):
 
 class SoccerScoreSearch(BaseTool):
     """Tool that adds the capability to read a PDF file."""
-    name = "pdf_search"
+    name = "search_soccer_scores"
     description = ("A tool that premier league's upcoming fixtures")
     args_schema: Optional[Type[BaseModel]] = SoccerScoreSearchArgs
 
