@@ -75,4 +75,9 @@ The usage is mentioned below
 ```
 User: search_soccer_scores 
 ```
+
+or simply type
+```
+User: Can you pull up the latest soccer fixtures?
+```
 and then you can ask some questions about the upcoming fixtures!
